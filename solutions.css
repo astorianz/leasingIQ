@@ -1,0 +1,49 @@
+.navbar-nav b{
+    font-family: Roboto;
+    font-size: 18px;
+
+}
+b{
+    color: black;
+    padding: 2px;
+}
+.nav-item{
+    margin-right: 5px;
+}
+#solutions {
+    background-color: antiquewhite;
+    background-image: url("images/Background.jpg");
+    background-size: cover;
+}
+#dropdown-menu{
+    background-color: orange;
+}
+.dropdown-menu>a{
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card-header {
+    text-align: center;
+    color: black;
+    font-family: Roboto;
+    background-color: antiquewhite;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    color: black;
+    width: 500px;
+}
+.nav-link{
+    color: black;
+}
+h1{
+    text-align: center;
+    color: black;
+    padding: 50px;
+    font-family: Roboto;
+    font-size: 45px;
+    font-size: large;
+}

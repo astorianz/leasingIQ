@@ -1,0 +1,79 @@
+body {
+    background-image: url("images/Background.jpg");
+    background-size: cover;
+    color: white;
+    font-family: Roboto;
+}
+
+.carousel {
+    height: 550px;
+}
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel h5 {
+    color: orangered;
+    font-size: 50px;
+    font-family: Roboto;
+    text-align: center;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: black;
+}
+.nav-link:hover {
+    color: orangered;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler {
+    border-color: black;
+}
+
+.logo {
+    background-color: white;
+    height: 35px;
+    width: 120px;
+    box-shadow: none;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+    box-shadow: -2px -2px 5px 1px;
+}
+.nav-link{
+    color: black;
+}
+#dropdown-menu{
+    background-color: orange;
+}
+.dropdown-menu>a{
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar-nav b{
+    font-family: Roboto;
+    font-size: 18px;
+
+}
+b{
+    color: black;
+    padding: 2px;
+}
+.nav-item{
+    margin-right: 5px;
+}
